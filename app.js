@@ -36,3 +36,26 @@ function actualizarLista() {
     }
 
 }
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("La lista de amigos está vacía");
+        return;
+    }
+
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    let amigoAleatorio = amigos[indiceAleatorio];
+    let mensaje = `El amigo secreto sorteado es: ${amigoAleatorio}`;
+
+    let lista = document.getElementById("listaAmigos");
+    let contResultado = document.getElementById("resultado");
+
+    // Limpia la lista
+    lista.innerHTML = "";           
+    // Limpia resultados anteriores
+    contResultado.innerHTML = "";   
+
+    let mensajeElemento = document.createElement("h4");
+    mensajeElemento.textContent = mensaje;
+    contResultado.append(mensajeElemento);
+}
