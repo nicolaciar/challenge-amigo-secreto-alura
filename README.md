@@ -42,7 +42,7 @@ Existen dos opciones para probar la aplicación:
 ### 1️⃣ Ver en línea (GitHub Pages)
 
 Accede directamente desde tu navegador:
-[🔗 Ir a la aplicación]()
+[🔗 Ir a la aplicación](https://nicolaciar.github.io/challenge-amigo-secreto-alura/)
 
 ### 2️⃣ Ejecutar localmente
 
